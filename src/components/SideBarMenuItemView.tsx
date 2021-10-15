@@ -11,7 +11,7 @@ interface SideBarMenuItemViewProps {
 export default function SideBarMenuItemView({ item, isOpen }: SideBarMenuItemViewProps) {
   return (
     <div className="SideBarMenuItemView">
-      <a href={item.url}>
+      <a href={item.url}  target="_blank" rel="noopener noreferrer">
         <div className={classNames("ItemContent", isOpen ? "" : "collapsed")}>
           <div className="icon">
             <item.icon size="32"/>

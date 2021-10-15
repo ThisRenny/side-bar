@@ -14,25 +14,25 @@ function App() {
       id: "1",
       label: "Twitter",
       icon: BsTwitter,
-      url: "/"
+      url: "https://twitter.com/RennyThis"
     },
         {
       id: "2",
       label: "Instagram",
       icon: BsInstagram,
-      url: "/"
+      url: "https://www.instagram.com/this.renny/?hl=es"
     },
         {
       id: "3",
       label: "Youtube",
       icon: BsYoutube,
-      url: "/"
+      url: "https://www.youtube.com/channel/UCm5qjKkdupfRSOzmkw6wa4A"
     },
         {
       id: "4",
       label: "GitHub",
       icon: BsGithub,
-      url: "/"
+      url: "https://github.com/ThisRenny"
     },
   ]
 
